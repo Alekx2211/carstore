@@ -1,0 +1,283 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background-color: black; }
+
+main {
+  width: 1920px;
+  height: 4000px; }
+  main .header {
+    height: 140px;
+    background-color: #212121;
+    position: relative;
+    width: 1920px;
+    z-index: 9999; }
+    main .header .top-links {
+      display: flex;
+      justify-content: end; }
+      main .header .top-links .top-link {
+        display: flex;
+        justify-content: end;
+        margin: 0;
+        border-right: 2px solid #ffff;
+        padding-right: 15px; }
+        main .header .top-links .top-link li {
+          list-style-type: none;
+          padding-top: 10px;
+          padding-left: 60px;
+          color: #ff3448; }
+          main .header .top-links .top-link li a {
+            color: #ff3448;
+            text-decoration: none;
+            font-weight: 900; }
+      main .header .top-links .search {
+        list-style: none;
+        margin-left: 20px;
+        margin-top: 10px; }
+        main .header .top-links .search a {
+          color: #ffff;
+          font-size: 25px; }
+    main .header .logo {
+      font-family: 'Lato', sans-serif;
+      font-size: 45px;
+      font-weight: 900; }
+      main .header .logo p {
+        color: #ff3448;
+        margin: 0; }
+        main .header .logo p span {
+          color: aliceblue; }
+      main .header .logo .best {
+        font-size: 15px;
+        color: #ffff;
+        font-weight: normal;
+        letter-spacing: 5px; }
+    main .header .main_links {
+      display: flex;
+      justify-content: space-between; }
+      main .header .main_links .tel .mob {
+        font-size: 20px;
+        color: #ff3448;
+        list-style-type: none; }
+        main .header .main_links .tel .mob a {
+          color: #ffff;
+          font-size: 20px;
+          text-decoration: none; }
+      main .header .main_links .tel p {
+        color: #a2a2a2;
+        font-size: 14px;
+        text-transform: uppercase; }
+    main .header .main-link {
+      display: flex;
+      align-items: center; }
+      main .header .main-link .star, main .header .main-link .car, main .header .main-link .cart {
+        text-align: center;
+        font-size: 20px;
+        color: #ff3448;
+        padding-right: 10px;
+        border-left: solid 1px #fff;
+        height: 65px;
+        padding-left: 15px;
+        padding-right: 15px; }
+      main .header .main-link li {
+        list-style-type: none;
+        color: #ff3448; }
+      main .header .main-link a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase; }
+      main .header .main-link p {
+        text-align: center;
+        color: #ff3448;
+        margin: 0; }
+  main .menu {
+    background-color: #030303;
+    height: 56px; }
+    main .menu ul {
+      text-align: left;
+      padding-left: 0;
+      padding-top: 10px; }
+      main .menu ul li {
+        display: inline-block;
+        list-style-type: none;
+        padding-right: 50px; }
+        main .menu ul li a {
+          text-decoration: none;
+          color: #ffff;
+          font-size: 15px;
+          font-weight: bold; }
+  main .wrap {
+    width: 1700px;
+    margin: 0 auto; }
+  main .main_banner {
+    background-image: url("../img/banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    position: relative;
+    width: 1920px; }
+  main .catal .headlight, main .catal .pad, main .catal .disk, main .catal .arm {
+    width: 960px;
+    height: 560px;
+    position: relative;
+    text-align: center; }
+    main .catal .headlight .text, main .catal .pad .text, main .catal .disk .text, main .catal .arm .text {
+      position: absolute;
+      top: 200px;
+      left: 26px; }
+      main .catal .headlight .text h1, main .catal .pad .text h1, main .catal .disk .text h1, main .catal .arm .text h1 {
+        font-size: 35px;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0;
+        text-align: left; }
+      main .catal .headlight .text p, main .catal .pad .text p, main .catal .disk .text p, main .catal .arm .text p {
+        font-size: 20px;
+        color: #979696;
+        line-height: 1.2;
+        margin: 0; }
+  main .catal .cat1, main .catal .cat2 {
+    display: flex; }
+  main .catal .headlight, main .catal .arm {
+    background-color: #303030; }
+  main .catal .pad, main .catal .disk {
+    background-color: #1c1c1c; }
+  main .catal .img {
+    margin-top: 160px;
+    margin-left: 320px; }
+  main .catal .img1 {
+    margin-top: 100px;
+    margin-left: 320px; }
+  main h2 {
+    color: #fff;
+    text-align: center;
+    text-decoration-color: blanchedalmond;
+    text-transform: uppercase;
+    font-size: 40px; }
+  main .product .prod {
+    display: flex;
+    justify-content: space-around; }
+  main .product .sub, main .product .mus, main .product .head, main .product .disk1, main .product .sal {
+    width: 300px;
+    height: 420px;
+    background-color: #363636; }
+  main .cars {
+    height: 655px;
+    background-image: url(../img/car.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 200px; }
+    main .cars .cars {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      align-items: center; }
+      main .cars .cars .sale {
+        color: #fff;
+        font-size: 20px; }
+        main .cars .cars .sale h2 {
+          font-size: 81px;
+          font-family: 'Lato', sans-serif;
+          margin: 0; }
+        main .cars .cars .sale p {
+          font-size: 40px;
+          text-transform: uppercase;
+          margin: 0;
+          color: #fff;
+          font-family: 'Lato';
+          font-weight: bold;
+          line-height: 1.2; }
+        main .cars .cars .sale .ofer {
+          all: revert;
+          margin-bottom: 30px; }
+        main .cars .cars .sale a {
+          background-color: #9c1c28;
+          max-width: 190px;
+          border-radius: 40px;
+          text-align: center;
+          font-size: 20px;
+          padding: 14px 45px 14px 45px;
+          text-decoration: none;
+          color: #fff; }
+  main .menu-bottom .link {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px; }
+    main .menu-bottom .link .line {
+      background: #9c1c28; }
+    main .menu-bottom .link ul {
+      color: #fff;
+      font-size: 25px;
+      text-transform: uppercase;
+      padding: 0%;
+      flex-basis: 30%; }
+      main .menu-bottom .link ul li {
+        list-style-type: none; }
+        main .menu-bottom .link ul li a {
+          text-decoration: none;
+          color: #ff3448;
+          text-transform: none;
+          font-size: 15px; }
+    main .menu-bottom .link input {
+      width: 340px;
+      height: 36px;
+      background-color: #282828;
+      outline: none;
+      border: none;
+      margin-bottom: 20px; }
+  main .menu-bottom p {
+    text-transform: none;
+    font-size: 15px;
+    color: #887979; }
+  main .menu-bottom .sub {
+    background-color: #9c1c28;
+    max-width: 190px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    color: #fff; }
+  main .menu-bottom .soc {
+    display: flex;
+    margin-top: 40px; }
+    main .menu-bottom .soc li {
+      padding-right: 10px;
+      margin-top: 20px; }
+    main .menu-bottom .soc .bottom {
+      all: revert;
+      font-size: 25px;
+      color: #fff;
+      text-align: left; }
+  main .information .info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 100px; }
+    main .information .info .inf {
+      flex-basis: 25%; }
+    main .information .info h2 {
+      font-size: 25px; }
+    main .information .info p {
+      color: #fff; }
+  main .information .cont {
+    color: #fff;
+    line-height: 1.6; }
+    main .information .cont li {
+      list-style-type: none; }
+    main .information .cont .fas {
+      padding-right: 5px; }
+  main footer .barands {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    main footer .barands .bran .fa-brands {
+      color: #fff;
+      font-size: 30px;
+      padding-right: 20px; }
+  main footer h2 {
+    font-size: 15px; }
+
+/*# sourceMappingURL=style.css.map */
